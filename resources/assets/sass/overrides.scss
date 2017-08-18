@@ -1,0 +1,32 @@
+/* Style Overrides Starts Here */
+
+/* navbar override */
+.navbar {
+  display:block;
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+/* navbar-brand override */
+.navbar-brand {
+  // height: 70px;
+  padding: 5px;
+}
+
+/* Dropdown menu override */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* Panel Override */
+.panel {
+  background-color: transparent;
+}
+
+.panel-default > .panel-heading {
+  background-color: transparent;
+}
+.panel-body {
+  padding: 4px;
+}
