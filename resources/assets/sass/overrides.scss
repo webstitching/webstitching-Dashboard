@@ -30,3 +30,30 @@
 .panel-body {
   padding: 4px;
 }
+
+/* Navbar-default Override */
+.navbar-default .navbar-nav > li > a {
+  color: #52b4f9;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #52b4f9;
+  color: #fff;
+}
+
+/* Card and card-footer override */
+.card {
+  border: none;
+}
+.card-footer {
+  padding: 2em 3em;
+  background-color: transparent;
+  border-top: none;
+}

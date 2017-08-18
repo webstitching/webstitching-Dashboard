@@ -1,5 +1,4 @@
-<!-- Top Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
+
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -157,6 +156,3 @@
       </li>
       @endif
   </ul>
-
-  <!-- /.navbar-collapse -->
-</nav>

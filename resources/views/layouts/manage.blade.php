@@ -21,11 +21,17 @@
 </head>
 <body>
   <div id="wrapper">
-    @include('_includes.nav.topnav')
-    @include('_includes.nav.sidenav')
-    <div id="app">
-        @yield('content')
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
+      @include('_includes.nav.topnav')
+      @include('_includes.nav.sidenav')
+    </nav>
+    <div id="page-wrapper">
+      <div id="app">
+          @yield('content')
+      </div>
     </div>
+    @include('_includes.nav.footer')
   </div>
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
